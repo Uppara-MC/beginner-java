@@ -1,0 +1,33 @@
+1.how to initialize a git respository
+2.how to add code to the staging area
+3.how to commit
+4.how to push
+5.how to create a new branch
+6.how to create a pr
+7.how to resolve conflicts
+
+intellij terminal
+- 
+
+git init
+git status
+
+git add * 
+git status
+
+git commit -m "Initial commit"
+
+git remote add origin https://github.com/KTG
+
+git push -u origin master
+
+git checkout -b feature
+git push -u origin feature
+
+
+cahne file
+
+get add *
+
+
+get checkout master
