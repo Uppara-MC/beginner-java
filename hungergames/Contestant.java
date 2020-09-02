@@ -1,6 +1,7 @@
 package hungergames;
 import java.util.Random;
 
+
 public class Contestant {
     private String Contestant;
     private char gender;

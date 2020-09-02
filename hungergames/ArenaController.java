@@ -1,6 +1,7 @@
 package hungergames;
 import java.util.Random;
 
+
 public class ArenaController {
     /*Public Methods
       int createContestant(int) - To create total contestants
@@ -9,20 +10,19 @@ public class ArenaController {
      */
     Contestant[] contestants = new Contestant[24];
     private int contestantAliveCount = 24;
-    private int battleNumber =0;
+    private int battleNumber = 0;
     private boolean finalists = false;
     private int contestant1 = -1;
     private int contestant2 = -1;
     private boolean contestant1Ready;
     private boolean contestant2Ready;
 
-
     //Empty constructor
     public ArenaController() {
 
     }
 
-    //Method to create 24 contestants (12 male and 12 female)
+    //Method to create 24 contestants (12 mazle and 12 female)
     public int createContestant(int Number){
         if(Number != 24){
             System.out.println("Invalid Total Number:" + Number + " Must be 24 Contestants");
